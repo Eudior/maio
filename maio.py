@@ -83,7 +83,7 @@ st.markdown("""
 st.title("📊 Painel de Metas de Vendas")
 
 # --- Constantes e Configurações ---
-GOOGLE_SHEET_URL_PROVIDED = "https://docs.google.com/spreadsheets/d/1ZsluAif0d8kk1t9HW7B_TD-_1UM9tli9/"
+GOOGLE_SHEET_URL_PROVIDED = "https://docs.google.com/spreadsheets/d/1bnqOqnJ3C9SXpJZ6txLtOu-pI7NYb6Yy/"
 try:
     sheet_id = GOOGLE_SHEET_URL_PROVIDED.split("/d/")[1].split("/")[0]
 except IndexError:
